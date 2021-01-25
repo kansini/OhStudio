@@ -1,0 +1,127 @@
+[
+  {
+    "name": "登录页面-1",
+    "thumb": "login/login01.jpg",
+    "pageConfig": {
+      "pageTitle": "登录",
+      "pageId": "psLogin01",
+      "component": "PsLogin01",
+      "props": {
+        "bg": {
+          "bgColor": "#F0F2F5",
+          "bgImg": "login-bg01.svg"
+        },
+        "logo": {
+          "logoType": "img",
+          "logoImg": "logo.png",
+          "logoText": "欢迎登录",
+          "logoStyle": {
+          }
+        },
+        "copyright": "2016-2021 上海陌远网络科技有限公司",
+        "supportInfo": "上海陌远网络科技有限公司",
+        "userPlaceholder": "请输入用户名/邮箱/手机号"
+      }
+    }
+  },
+  {
+    "name": "登录页面-2",
+    "thumb": "login/login02.jpg",
+    "pageConfig": {
+      "pageTitle": "登录",
+      "pageId": "psLogin02",
+      "component": "PsLogin02",
+      "props": {
+        "bg": {
+          "bgColor": "#F0F2F5",
+          "bgImg": "login-bg02.svg"
+        },
+        "logo": {
+          "logoType": "img",
+          "logoImg": "logo.png",
+          "logoText": "欢迎登录",
+          "logoStyle": {
+          }
+        },
+        "copyright": "2016-2021 上海陌远网络科技有限公司",
+        "supportInfo": "上海陌远网络科技有限公司",
+        "userPlaceholder": "请输入用户名/邮箱/手机号"
+      }
+    }
+  },
+  {
+    "name": "登录页面-3",
+    "thumb": "login/login03.jpg",
+    "pageConfig": {
+      "pageTitle": "登录",
+      "pageId": "psLogin03",
+      "component": "PsLogin03",
+      "props": {
+        "bg": {
+          "bgColor": "#F0F2F5",
+          "bgImg": "login-bg02.svg"
+        },
+        "logo": {
+          "logoType": "img",
+          "logoImg": "logo.png",
+          "logoText": "欢迎登录",
+          "logoStyle": {
+          }
+        },
+        "copyright": "2016-2021 上海陌远网络科技有限公司",
+        "supportInfo": "上海陌远网络科技有限公司",
+        "userPlaceholder": "请输入用户名/邮箱/手机号"
+      }
+    }
+  },
+  {
+    "name": "服务",
+    "thumb": "services/services01.jpg",
+    "pageConfig": {
+      "pageTitle": "登录",
+      "pageId": "psLogin02",
+      "component": "PsLogin02",
+      "props": {
+        "bg": {
+          "bgColor": "#F0F2F5",
+          "bgImg": "login-bg02.svg"
+        },
+        "logo": {
+          "logoType": "img",
+          "logoImg": "logo.png",
+          "logoText": "欢迎登录",
+          "logoStyle": {
+          }
+        },
+        "copyright": "2016-2021 上海陌远网络科技有限公司",
+        "supportInfo": "上海陌远网络科技有限公司",
+        "userPlaceholder": "请输入用户名/邮箱/手机号"
+      }
+    }
+  },
+  {
+    "name": "产品展示",
+    "thumb": "products/products01.jpg",
+    "pageConfig": {
+      "pageTitle": "登录",
+      "pageId": "psLogin02",
+      "component": "PsLogin02",
+      "props": {
+        "bg": {
+          "bgColor": "#F0F2F5",
+          "bgImg": "login-bg02.svg"
+        },
+        "logo": {
+          "logoType": "img",
+          "logoImg": "logo.png",
+          "logoText": "欢迎登录",
+          "logoStyle": {
+          }
+        },
+        "copyright": "2016-2021 上海陌远网络科技有限公司",
+        "supportInfo": "上海陌远网络科技有限公司",
+        "userPlaceholder": "请输入用户名/邮箱/手机号"
+      }
+    }
+  }
+]

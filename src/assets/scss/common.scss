@@ -1,0 +1,132 @@
+@import "variable";
+
+.is-full {
+  width: 100%;
+  height: 100vh;
+  transform: translate(0, 0);
+  transition: all ease .1s;
+}
+
+
+.fadeIn-enter-active,
+.fadeIn-leave-active {
+  transition: all ease .6s;
+}
+
+
+.fadeIn-enter,
+.fadeIn-leave-active {
+  opacity: 0;
+  filter: blur(8px);
+}
+
+.slideIn-enter-active {
+  transition: all ease .3s;
+}
+
+.slideIn-leave-active {
+  transition: all ease .2s;
+}
+
+.slideIn-enter,
+.slideIn-leave-active {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.slideUp-enter-active {
+  transition: all ease .3s;
+}
+
+.slideUp-leave-active {
+  transition: all ease .2s;
+}
+
+.slideUp-enter,
+.slideUp-leave-active {
+  opacity: 0;
+  transform: translate(-50%, -100%);
+}
+
+.ohs-hasScroll {
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    transition: all ease .4s;
+  }
+
+  &:hover::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  &:hover::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, .2);
+  }
+}
+
+.modal-draggable {
+  .ohs-modal-dark--header {
+    cursor: grab;
+
+    &:active {
+      cursor: grabbing;
+    }
+  }
+}
+
+.v-contextmenu {
+  border: none;
+  width: 144px;
+  padding: 8px;
+  background: rgba(255, 255, 255, .8);
+  backdrop-filter: blur(8px);
+  box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, .1);
+
+  .v-contextmenu-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    transition: all ease .4s;
+    color: #333;
+    border-radius: 4px;
+
+    i {
+      font-size: 16px;
+      color: #666;
+      margin-right: 4px;
+    }
+  }
+
+  .v-contextmenu-item--hover {
+    background: $ohs-blue-light;
+    color: $ohs-blue !important;
+
+    i {
+      color: $ohs-blue;
+    }
+  }
+}
+
+.ant-form, .ant-form label, .ant-btn, .ant-input, .ant-table, .ant-dropdown-menu-item, .ant-select, .area-select .area-selected-trigger, .cascader-menu-list, .ant-select-dropdown-menu-item, .ant-form-explain, .ant-form-extra, .ant-tabs, .ant-form-item, .ant-input-number-input {
+  font-size: 12px !important;
+}
+
+.ant-form-explain {
+  // margin-bottom: -12px;
+  text-align: left;
+}
+
+vc-sketch-presets-color {
+  border-radius: 20px !important;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #deeaff;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="形状_3" data-name="形状 3" class="cls-1" d="M1611-81s-459,60-453,378,225,318,507,198,381-306,381-306l30-327Z"/>
+  <circle id="椭圆_3" data-name="椭圆 3" class="cls-2" cx="240" cy="15" r="72"/>
+  <circle id="椭圆_4" data-name="椭圆 4" class="cls-2" cx="472.5" cy="82.5" r="28.5"/>
+  <path id="形状_4" data-name="形状 4" class="cls-1" d="M267,1152s42-138,234-171,453-81,513-249S921,258,750,336,498,528,285,528-66,540-99,648s-75,546-75,546Z"/>
+</svg>

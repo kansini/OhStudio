@@ -1,0 +1,22 @@
+{
+  "pageTitle": "登录",
+  "pageId": "psLogin01",
+  "component": "PsLogin01",
+  "props": {
+    "bg": {
+      "bgColor": "#F0F2F5",
+      "bgImg": "login-bg01.svg"
+    },
+    "logo": {
+      "logoType": "img",
+      "logoImg": "logo.png",
+      "logoText": "欢迎登录",
+      "logoStyle": {
+
+      }
+    },
+    "copyright": "2016-2021 上海陌远网络科技有限公司",
+    "supportInfo": "上海陌远网络科技有限公司",
+    "userPlaceholder": "请输入用户名/邮箱/手机号"
+  }
+}
